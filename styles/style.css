@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1D1D1D;
+    color: #F4F4F4;
+    font-family: "GinoraSansRegular", sans-serif;
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 30px 0 0;
+}
+
+.header-wrapper {
+    display: flex;
+    height: 80px;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #232526;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    transition: .3s;
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+}
+
+.nav ul li:hover {
+    border-bottom-color: #F4F4F4;
+}
+
+.logo {
+    width: 138px;
+    height: 40px;
+}
+
+.main {
+    background: url("../img/main-bg.png") no-repeat center, url("../img/main-second-bg.png") no-repeat right 87px bottom 27px;
+    padding: 171px 0 141px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    max-width: 838px;
+    text-align: center;
+    font-family: "GinoraSansBold", sans-serif;
+    font-size: 82px;
+    line-height: 1.17;
+    text-transform: capitalize;
+    margin-bottom: 164px;
+}
+
+.main-title span {
+    background-image: linear-gradient(92.73deg, #99A9FF 0%, #5CE4CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.arrow-down {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.arrow-down:hover {
+    transform: scale(1.2);
+}
+
+.program {
+    padding: 89px 0 0 0;
+}
+
+.images-container {
+    margin-left: auto;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    max-width: 992px;
+}
+
+.program-big-image {
+    max-width: 893px;
+}
+
+.program-small-image {
+    max-width: 268px;
+    margin-left: -209px;
+}
+
+.program-big-image img,
+.program-small-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+

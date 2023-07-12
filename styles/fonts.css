@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "GinoraSansRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("GinoraSansRegular"),
+    url("../fonts/GinoraSansRegular.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "GinoraSansBold";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("GinoraSansBold"),
+    url("../fonts/GinoraSansBold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "GilroyRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("GilroyRegular"),
+    url("../fonts/GilroyRegular.woff") format("truetype");
+}
